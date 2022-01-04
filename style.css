@@ -1,0 +1,265 @@
+/***
+NOT AN OFFICIAL GMAIL PAGE
+colors
+background-color - #fffffff
+#f1f3f4 - grey
+#f2f5f5cc - grey
+#202124 - black
+#3c4043- blzck
+#427fed - sign in color blue
+#1155cc - link color blue
+#404040 - black font in the section
+#d93025- red hover
+
+**/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  color: #202124;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+
+  display: grid;
+  grid-template-columns: 220px 1fr 50px;
+  grid-template-rows: 60px 55px 240px 130px 170px auto;
+}
+
+.mail-icon,
+.mail-icon--stroke {
+  width: 20px;
+  height: 20px;
+}
+
+/**
+.mail-icon:hover, 
+.mail-icon--stroke:hover {
+    padding: 1px;
+    background-color: #f2f5f5cc;
+    border-radius: 50%;
+}
+**/
+.mail-icon {
+  fill: #6c6c6d;
+}
+
+.mail-icon--stroke {
+  stroke: #6c6c6d;
+}
+
+.gmail-icon {
+  width: 40px;
+  height: 40px;
+}
+.box-1 {
+  grid-column: 1/-1;
+  display: flex;
+  gap: 30px;
+  padding: 10px;
+  align-items: center;
+  border-bottom: 1px solid #b5b5b6;
+}
+.box-1 input {
+  border: none;
+  background-color: #f1f3f4;
+  border-radius: 5px;
+  padding: 8px;
+  width: 500px;
+  height: 48px;
+  margin: 5px 350px 5px 70px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+.box-1 p {
+  display: inline-block;
+  background-color: rgb(65, 44, 139);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding-top: 6px;
+}
+
+.box-2 button {
+  border: none;
+  border-radius: 22px;
+  box-shadow: 0px 1px 5px #cccececc;
+  background-color: #fff;
+  width: 140px;
+  height: 50px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 18px;
+  margin-top: 10px;
+}
+.box-2 button .mail-icon {
+  fill: rgb(241, 36, 9);
+}
+.box-3 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #b5b5b6;
+  padding: 8px;
+}
+.box-3 div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.box-4 {
+  margin-top: 20px;
+  overflow: scroll;
+  overflow-x: hidden;
+  border-bottom: 1px solid #b5b5b6;
+  cursor: pointer;
+}
+
+.box-4 button {
+  background: none;
+  padding: 14px;
+  border: none;
+  width: 200px;
+  height: 50px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+.box-4 button:hover {
+  background-color: #f2f5f5cc;
+}
+
+.box-4-box {
+  display: flex;
+  gap: 30px;
+}
+
+.num {
+  display: none;
+}
+/**
+.box-4 .num:hover {
+    display: block;
+}
+**/
+.box-5 {
+  grid-column: 2/3;
+  grid-row: 3/-1;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.box-5--box1 {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  padding-bottom: 1px;
+  gap: 40px;
+  border-bottom: 1px solid #b5b5b6;
+}
+
+.box-5--box1-box {
+  display: flex;
+  padding-right: 120px;
+}
+.box-5--box1-box-main {
+  color: #d93025;
+  border-bottom: 3px solid #d93025;
+}
+.box-5--box1-box-main .mail-icon {
+  fill: #d93025;
+}
+.box-5--box2 {
+  border-bottom: 1px solid #b5b5b6;
+  background-color: #f2f5f5cc;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.box-5--box2:hover {
+  border-bottom: 2px solid #b5b5b6;
+  background-color: #fff;
+  box-shadow: 0px 1px 5px #9b9c9c;
+}
+
+.box-5--box2 .mail-icon--stroke:hover {
+  width: 26px;
+  height: 26px;
+  stroke: yellow;
+  fill: rgb(247, 247, 55);
+}
+.box-6 {
+  margin-top: 24px;
+  padding-left: 15px;
+  border-bottom: 1px solid #b5b5b6;
+}
+.box-6 h3 {
+  margin-bottom: 10px;
+}
+.box-6 div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.box-7 {
+  margin-top: 14px;
+  padding-left: 15px;
+  border-bottom: 1px solid #b5b5b6;
+}
+.box-7 .mail-icon {
+  margin-left: 50px;
+  fill: #f2f5f5cc;
+  width: 100px;
+  height: 82px;
+}
+.box-7 button {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #427fed;
+  border: none;
+  width: 190px;
+  height: 28px;
+}
+.box-8 {
+  grid-column: 3/4;
+  grid-row: 2/-1;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  gap: 28px;
+  align-items: center;
+  border-left: 1px solid #b5b5b6;
+}
+
+.box-8 .mail-icon {
+  fill: #427fed;
+}
+.box-8 .mail-icon-down {
+  margin-top: auto;
+  fill: #6c6c6d;
+}
+hr {
+  border-bottom: none;
+  border-color: #f3f1f1;
+  border-width: 1px;
+  width: 50%;
+}
+.box-9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
